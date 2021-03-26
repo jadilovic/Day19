@@ -4,9 +4,12 @@ import './index.css';
 
 class App extends React.Component {
   render() {
+    // Change code below this line
+    const world = "World";
+    // Change code above this line
       return (
           <div className="App">
-              <h1>Hello, Padawans!</h1>
+              <h1>Hello, {world}!</h1>
           </div>
       )
   }
